@@ -1,3 +1,3 @@
 # NoteApp
-Use Guidelines
-developed backend services using NodeJS
+
+developed backend services using Node.JS(MangoDB for storage)
