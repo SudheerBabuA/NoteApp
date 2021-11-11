@@ -1,6 +1,7 @@
-# NoteApp
+# NoteApp (Some of Screenshorts)
 
 Used backend services as Node.Js(MangoDB to store the Data)
+
 <img width="374" alt="Screenshot 2021-11-11 at 9 41 39 AM" src="https://user-images.githubusercontent.com/93616134/141237356-85d1ec68-ba25-4f5f-a20a-a2860e6a6354.png">
 
 <img width="374" alt="Screenshot 2021-11-11 at 9 41 48 AM" src="https://user-images.githubusercontent.com/93616134/141237362-0cc70515-e4f1-4c12-9ec8-7ed11779110e.png">
