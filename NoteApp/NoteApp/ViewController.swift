@@ -59,36 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.title.text = notesArray[indexPath.row].title
         cell.note.text = notesArray[indexPath.row].note
         cell.date.text = notesArray[indexPath.row].date
-        // cell.textLabel?.text = notesArray[indexPath.row].title
-//        let switchView = UISwitch(frame: .zero)
-//        switchView.setOn(false, animated: true)
-//        switchView.tag = indexPath.row
-//        switchView.addTarget(self, action: #selector(switchChanged(_:)), for: .valueChanged)
-//        cell.accessoryView = switchView
-        
-       
-//        let center = UNUserNotificationCenter.current()
-//
-//        let content = UNMutableNotificationContent()
-//        content.title = cell.title.text!
-//        content.body = cell.note.text!
-//
-//        let currenDateTime = Date()
-//         let dateFormatter = DateFormatter()
-//         dateFormatter.timeStyle = .medium
-//         dateFormatter.dateStyle = .long
-// //        dateFormatter.dateFormat = "dd-MM-yyyy"
-//         var date = dateFormatter.string(from: currenDateTime)
-//
-//
-//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 20, repeats: false)
-//        let request = UNNotificationRequest(identifier: "remainder", content: content, trigger: trigger)
-//        center.add(request) { error in
-//            if error != nil {
-//                print("Error = \(error?.localizedDescription ?? "error local Notification")")
-//            }
-//        }
-    
+
         return cell
     }
     func showActionSheet()  {
